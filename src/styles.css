@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+#inputs {
+  display: grid;
+}
+
+input {
+  left: 50%;
+  height: 2rem;
+  width: 40%;
+  transform: translateX(30vw);
+  text-align: center;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 3px;
+}
+
+button {
+  height: 2rem;
+  background-color: rgb(132, 0, 255);
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  transition: 1s;
+  background-color: blue;
+}
